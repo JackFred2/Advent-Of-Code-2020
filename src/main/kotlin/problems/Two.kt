@@ -1,6 +1,10 @@
+package problems
+
+import Utils
+
 class Two : Problem {
     override fun partOne(): Int {
-        val input = Utils.loadFile("inputs/day2.txt")?.lines() ?: return 0
+        val input = Utils.loadFile("inputs/day2.txt")?.lines() ?: return -1
         var count = 0
         val regex = Regex("(\\d+)-(\\d+) (\\S): ([\\S]+)\$")
         for (line in input) {
@@ -16,7 +20,7 @@ class Two : Problem {
     }
 
     override fun partTwo(): Int {
-        val input = Utils.loadFile("inputs/day2.txt")?.lines() ?: return 0
+        val input = Utils.loadFile("inputs/day2.txt")?.lines() ?: return -1
         var count = 0
         val regex = Regex("(\\d+)-(\\d+) (\\S): ([\\S]+)\$")
         for (line in input) {

@@ -1,6 +1,11 @@
+import problems.One
+import problems.Three
+import problems.Two
+
 val days = mapOf(
     "1" to One(),
-    "2" to Two()
+    "2" to Two(),
+    "3" to Three()
 )
 
 fun main(args: Array<String>) {
