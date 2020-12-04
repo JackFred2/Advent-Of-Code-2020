@@ -1,8 +1,8 @@
 package problems
 
-val TREE_CHAR = '#'
 
 class Three : Problem {
+    private val treeChar = '#'
     private fun countTrees(map: Array<BooleanArray>, xDiff: Int, yDiff: Int): Int {
         var x = 0
         var y = 0
@@ -26,7 +26,7 @@ class Three : Problem {
         for (y in 0 until height) {
             val line = input[y]
             for (x in 0 until width) {
-                map[y][x] = line[x] == TREE_CHAR
+                map[y][x] = line[x] == treeChar
             }
         }
         return map
