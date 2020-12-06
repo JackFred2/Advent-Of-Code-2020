@@ -1,11 +1,12 @@
 import problems.*
 
 val days = mapOf(
-    "1" to One(),
-    "2" to Two(),
-    "3" to Three(),
-    "4" to Four(),
-    "5" to Five()
+        "1" to One(),
+        "2" to Two(),
+        "3" to Three(),
+        "4" to Four(),
+        "5" to Five(),
+        "6" to Six()
 )
 
 fun main(args: Array<String>) {
