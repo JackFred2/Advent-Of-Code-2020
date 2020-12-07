@@ -6,7 +6,8 @@ val days = mapOf(
         "3" to Three(),
         "4" to Four(),
         "5" to Five(),
-        "6" to Six()
+        "6" to Six(),
+        "7" to Seven()
 )
 
 fun main(args: Array<String>) {
