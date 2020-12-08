@@ -7,7 +7,8 @@ val days = mapOf(
         "4" to Four(),
         "5" to Five(),
         "6" to Six(),
-        "7" to Seven()
+        "7" to Seven(),
+        "8" to Eight()
 )
 
 fun main(args: Array<String>) {

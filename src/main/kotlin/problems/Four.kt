@@ -1,5 +1,7 @@
 package problems
 
+import misc.Utils
+
 class Four : Problem {
     private val needed = listOf("pid","hgt","byr","ecl","iyr","eyr","hcl")
     private val neededTwo = mapOf(

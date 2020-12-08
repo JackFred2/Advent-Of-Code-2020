@@ -1,5 +1,7 @@
 package problems
 
+import misc.Utils
+
 class Six : Problem {
     override fun partOne(): Int {
         val lines = Utils.loadFile("inputs/day6.txt")?.lines() ?: return -1

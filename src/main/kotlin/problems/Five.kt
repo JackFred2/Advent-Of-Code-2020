@@ -1,5 +1,7 @@
 package problems
 
+import misc.Utils
+
 class Five : Problem {
     private fun getValue(bitString: String): Int {
         var value = 0

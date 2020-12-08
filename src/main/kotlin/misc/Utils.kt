@@ -1,4 +1,4 @@
-import org.jetbrains.annotations.NonNls
+package misc
 
 class Utils {
     companion object Funcs {

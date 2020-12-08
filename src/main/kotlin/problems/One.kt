@@ -1,6 +1,6 @@
 package problems
 
-import Utils
+import misc.Utils
 
 class One : Problem {
     override fun partOne(): Int {

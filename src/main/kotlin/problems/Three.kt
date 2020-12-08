@@ -1,5 +1,7 @@
 package problems
 
+import misc.Utils
+
 
 class Three : Problem {
     private val treeChar = '#'
