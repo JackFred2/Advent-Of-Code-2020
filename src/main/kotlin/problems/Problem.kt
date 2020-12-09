@@ -1,10 +1,10 @@
 package problems
 
 interface Problem {
-    fun partOne(): Int {
+    fun partOne(): Number {
         return -1
     }
-    fun partTwo(): Int {
+    fun partTwo(): Number {
         return -1
     }
 }

@@ -28,7 +28,6 @@ class Eight : Problem {
     override fun partTwo(): Int {
         val lines = Utils.loadFile("inputs/day8.txt")?.lines() ?: return -1
         val machine = ASMMachine(lines)
-        val triedChanging = mutableSetOf<Int>()
         for (i in 0 until machine.instructions.size) {
             val instruction = machine.instructions[i]
             val state = machine.saveState()
